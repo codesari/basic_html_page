@@ -1,27 +1,28 @@
 body{
     background-color:rgba(236, 227, 227, 0.815);
+    text-align: center;
+    
 }
 
-#all{
-    
-    text-align: center;
-}
 
 #head1{
 
     color: cornflowerblue;
+    font-size: 30px;
+    
 }
 
 #img{
-    padding: 2rem;
-    width: 150px;
-    height: 130px;
+    /* padding: 2rem; */
+    margin: 20px;
+    width: 300px;
+    /* height: 130px; */
     /* img boyutu düzenlerken px kullan */
     
 }
 #container{
 
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
     display: inline-block;
     /* sonunda buldum container ortalama kodu */
@@ -34,12 +35,19 @@ body{
 }
 
 #mark{
-    background-color: bisque; 
+    background-color: rgb(249, 202, 175);
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 2px; 
+    
 }
 
 .spanClass{
 
-    color:burlywood
+    color:burlywood;
+    border-left: 5px solid yellow;
+    /* dik bir madde çubuğu ekler  */
+    padding-left: 10px;
 }
 
 #button{
