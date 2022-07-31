@@ -1,0 +1,62 @@
+body{
+    background-color:rgba(236, 227, 227, 0.815);
+}
+
+#all{
+    
+    text-align: center;
+}
+
+#head1{
+
+    color: cornflowerblue;
+}
+
+#img{
+    padding: 2rem;
+    width: 150px;
+    height: 130px;
+    /* img boyutu düzenlerken px kullan */
+    
+}
+#container{
+
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    /* sonunda buldum container ortalama kodu */
+    width: 50%;
+    padding: 2rem;
+    margin: 1rem;
+    line-height: 2rem;
+    text-align: left;
+    background-color: rgba(110, 64, 194, 0.781);
+}
+
+#mark{
+    background-color: bisque; 
+}
+
+.spanClass{
+
+    color:burlywood
+}
+
+#button{
+
+    /* border: solid 2px red; */
+    color: black;
+    background-color: orange;
+    text-decoration: none;
+    /* bu kod linkin altı çizili özelliğini kaybeder */
+    padding: 1rem;
+    border-radius: 10px;
+    
+}
+#button:hover{
+    background-color: black;
+    color: orange;
+}
+#bottom_text{
+    padding: 1rem;
+}
